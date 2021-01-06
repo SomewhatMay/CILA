@@ -53,7 +53,7 @@ CILA 4.0 is only released to ROBLOX, and uses a different but very similar frame
 The main differences are that it uses ROBOX datastore to save its questions and answers, and instead of finding the same question to answer with, it does a couple of things differently:
 1. It breaks up both the questiont its checking, and the question asked into tables using `string.split()`
 2. It goes through each of the words and tries to find a match in words using `string.find()`
-3. If it finds a match, that match is returned 
+3. If it finds a match, that match is returned in string format
 
 *It always saves everythign in lower string format using `string.lower()`*
 
