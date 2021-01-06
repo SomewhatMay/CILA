@@ -31,7 +31,7 @@ It stores learned data in a .json file (see the files for more info in file name
 
 When a qusetion is asked, it finds the same question in the table (but is the string is lowered to make it easier to find similar questions).
 
-When a question is asked and CILA doesnt understand it, it will ask the user for an EXACT answer. When the user replies, it saves that answer with the question in the .json file for future refrence. *all strings stored in .json file is lowered using `string.lower()`*
+When a question is asked and CILA doesnt understand it, it will ask the user for an EXACT answer. When the user replies, it saves that answer with the question in the .json file for future refrence. *All strings stored in .json file is lowered using `string.lower()`*
 
 ## CILA 3.2
 
