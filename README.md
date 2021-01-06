@@ -55,7 +55,7 @@ The main differences are that it uses ROBOX datastore to save its questions and 
 2. It goes through each of the words and tries to find a match in words using `string.find()`
 3. If it finds a match, that match is returned in string format
 
-*It always saves everythign in lower string format using `string.lower()`*
+*It always stores all strings in lower string format using `string.lower()`*
 
 CILA 4.0 FRAMEWORk is a lot more advanced and works a lot better than the CILA 3.0 FRAMEWORK, but it isn't amazing, it still has some really huge problems that CILA 3.0 FRAMEWORK deals with better. CILA 4.0 FRAMEWORK learns better, and answers better (in most cases), but also has some problems with finding the right answer in a set of similar questions.
 
